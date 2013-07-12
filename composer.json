@@ -1,0 +1,6 @@
+{
+    "require": {
+	"sybio/image-workshop": "dev-master",
+	"swiftmailer/swiftmailer": "5.1.*@dev"
+    }
+}

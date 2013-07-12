@@ -1,0 +1,104 @@
+[
+    {
+        "name": "sybio/image-workshop",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Sybio/ImageWorkshop.git",
+            "reference": "2.0.x"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Sybio/ImageWorkshop/zipball/2.0.x",
+            "reference": "2.0.x",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-06-18 08:58:44",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PHPImageWorkshop": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cl\u00e9ment Guillemain",
+                "homepage": "http://clementguillemain.fr",
+                "role": "Developer / Freelancer"
+            }
+        ],
+        "description": "Powerful PHP class using GD library to work easily with images including layer notion (like Photoshop or GIMP)",
+        "homepage": "http://phpimageworkshop.com",
+        "keywords": [
+            "class",
+            "crop",
+            "gd",
+            "image",
+            "library",
+            "resize",
+            "rotate",
+            "thumbnail",
+            "watermark"
+        ]
+    },
+    {
+        "name": "swiftmailer/swiftmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swiftmailer/swiftmailer.git",
+            "reference": "67473624fea1bdb63e2eb5a90254c7ade5562c9f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/67473624fea1bdb63e2eb5a90254c7ade5562c9f",
+            "reference": "67473624fea1bdb63e2eb5a90254c7ade5562c9f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2013-06-18 06:36:28",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "lib/swift_required.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Chris Corbyn"
+            }
+        ],
+        "description": "Swiftmailer, free feature-rich PHP mailer",
+        "homepage": "http://swiftmailer.org",
+        "keywords": [
+            "mail",
+            "mailer"
+        ]
+    }
+]
